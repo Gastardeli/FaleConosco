@@ -1,0 +1,240 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 30px;
+    
+    
+  }
+  
+  header .menu {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+  
+  header .menu a {
+   margin: 50px;
+    font-size: 17px;
+  }
+  
+  .menu a {
+    position: relative;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .menu .botoes {
+    position: relative;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .menu .botoes:hover::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #4747D9;
+    transition: width 0.3s ease;
+  }
+  
+  .menu .botoes:hover {
+    color: #4747D9;
+  }
+  
+  
+  
+  header .menu a button {
+    font-size: 17px;
+  }
+  
+  header .logo img {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .button {
+    height: 50px;
+    width: 200px;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #6E6EFF;
+    overflow: hidden;
+    border-radius: 30px;
+    color: #000;
+    transition: all 0.5s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .btn-txt {
+    z-index: 1;
+  }
+  
+  .type1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #4747D9;
+    border-radius: 30px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+  }
+  
+  .button:hover {
+    box-shadow: 1px 1px 200px #4747D9;
+    color: #fff;
+    border: none;
+  }
+  
+  .type1:hover::after {
+    visibility: visible;
+    transform: scale(100) translateX(2px);
+  }
+
+body {
+    background-color: #CCCFD4;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+#imagem {
+    display: flex;
+    
+}
+.Cadastro {
+    margin-left: 200px;
+    margin-right: 200px;
+   
+}
+.Usuario, .Senha, .EsqueciSenha{
+    padding: 5px;
+    font: 400 15px "PoppinsR", sans-serif;
+}
+
+
+
+#headerCadastro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+
+#mainCadastro {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+#RetanguloCadastro {
+    width: 330px;
+    height: 39px;
+    border: none;
+    border-radius: 5px;
+    background-color: #9A99FF;
+}
+
+.EsqueciSenha {
+    display: flex;
+    text-decoration: underline;
+    margin-left: 170px;
+    font: 400 14px "PoppinsR",sans-serif;
+    color: #5c5e60;
+}
+
+.Conectado {
+    display: flex;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+
+.Conectado-txt {
+    font: 400 14px "PoppinsR",sans-serif;
+    margin-left: 10px;
+}
+
+#Entrar{
+    margin-left: 85px;
+    margin-top: 40px ;
+}
+
+.EntrarButton {
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 70px;
+    font: 500 19px "PoppinsR",sans-serif;
+    border: 3px solid #6E6EFF;
+    border-radius: 5px;
+}
+
+.EntrarGoogle {
+    font: 200 14px "PoppinsR",sans-serif;
+    margin: 6px;
+    text-decoration: underline;
+    color: #5c5e60;
+}
+
+.textoFooter {
+    font: 200 12px "PoppinsR",sans-serif;
+}
+
+
+.AugebitFooter {
+    display: block;
+    padding-top: 10px;
+    padding-left: 100px;    
+}
+
+.footerCadastro {
+    padding: 10px;
+    margin-top: 60px;
+    background-color: #BFBFBF;
+    display: flex;
+
+}
+
+.SobreNos-Ctt {
+    font: 100 20px "PoppinsR",sans-serif;
+    margin-left: 250px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+
+.NosAcompanhe {
+    margin-left: 500px;
+    margin-top: 15px;
+}
+.NosAcompanhe-txt {
+    
+    color: #4747D9;
+    font: 700 24px "PoppinsSemiB",sans-serif;
+}
+
+.Icones , .facebook, .youtube, .linkedin, .instagram{
+    display: inline;
+    padding: 5px;
+}
+.Icones {
+    margin-left: 12px;
+}
+
